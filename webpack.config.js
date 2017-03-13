@@ -9,6 +9,7 @@ module.exports = {
 		// In non-CommonJS, allows window.d3 to be used
 		// In CommonJS, this will use the included d3 package
 		d3: 'd3',
+		'd3-selection': 'd3-selection',
 	},
 	module: {
 		rules: [
