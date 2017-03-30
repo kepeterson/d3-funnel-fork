@@ -2816,7 +2816,7 @@ var Colorizer = function () {
 		key: 'getBlockRawFill',
 		value: function getBlockRawFill(block, index) {
 			// Use the block's color, if set and valid
-			if (block.length > 2 && this.hexExpression.test(block[2])) {
+			if (block.length > 2) {
 				return block[2];
 			}
 
